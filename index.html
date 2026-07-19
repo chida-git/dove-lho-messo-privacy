@@ -4,131 +4,397 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Privacy Policy - Dove l'ho messo</title>
+  <title>Privacy Policy – Dove l'ho messo?</title>
+
+  <meta
+    name="description"
+    content="Informativa sulla privacy dell'app Dove l'ho messo?"
+  >
 
   <style>
-    body {
-      max-width: 850px;
-      margin: 40px auto;
-      padding: 0 20px;
-      font-family: Arial, sans-serif;
-      line-height: 1.7;
-      color: #222;
+    :root {
+      color-scheme: light;
+      --background: #f8f7ff;
+      --surface: #ffffff;
+      --primary: #6842e3;
+      --primary-dark: #32168c;
+      --primary-soft: #eee9ff;
+      --text: #201747;
+      --muted: #665f7a;
+      --border: #ddd7ef;
     }
 
-    h1, h2 {
-      color: #111;
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 48px auto;
+    }
+
+    header {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .app-icon {
+      display: block;
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 16px;
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: var(--surface);
+      box-shadow: 0 8px 24px rgb(40 25 90 / 15%);
+      object-fit: cover;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: var(--primary-dark);
+      font-size: clamp(28px, 6vw, 38px);
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .updated {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary-dark);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    section {
+      margin-bottom: 18px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: 0 8px 28px rgb(40 25 90 / 7%);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      color: var(--primary-dark);
+      font-size: 21px;
+      line-height: 1.3;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin: 8px 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary-dark);
+      font-weight: 700;
+    }
+
+    .email-button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .email-button:hover,
+    .email-button:focus {
+      background: var(--primary-dark);
     }
 
     footer {
-      margin-top: 50px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
-      color: #666;
+      padding: 12px 8px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 480px) {
+      main {
+        margin: 24px auto;
+      }
+
+      section {
+        padding: 20px;
+      }
     }
   </style>
 </head>
 
 <body>
+  <main>
+    <header>
+      <img
+        class="app-icon"
+        src="./icon.png"
+        alt="Icona dell'app Dove l'ho messo?"
+        width="88"
+        height="88"
+      >
 
-  <h1>Privacy Policy</h1>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Dove l'ho messo?</p>
+      <p class="updated">Ultimo aggiornamento: 19 luglio 2026</p>
+    </header>
 
-  <p><strong>Ultimo aggiornamento:</strong> 5 luglio 2026</p>
+    <section>
+      <h2>Introduzione</h2>
 
-  <p>
-    La presente informativa sulla privacy descrive come l'applicazione
-    <strong>Dove l'ho messo</strong> gestisce i dati degli utenti.
-  </p>
+      <p>
+        La presente informativa descrive come l'applicazione
+        <strong>Dove l'ho messo?</strong> gestisce le informazioni
+        dell'utente e le autorizzazioni richieste dal dispositivo.
+      </p>
 
-  <h2>Dati raccolti</h2>
+      <p>
+        L'app non richiede la creazione di un account e non utilizza
+        server gestiti dallo sviluppatore per raccogliere o archiviare
+        i contenuti inseriti nell'app.
+      </p>
+    </section>
 
-  <p>
-    L'applicazione non richiede la creazione di un account e non raccoglie
-    né trasmette dati personali a server gestiti dallo sviluppatore.
-  </p>
+    <section>
+      <h2>Dati conservati sul dispositivo</h2>
 
-  <h2>Dati salvati sul dispositivo</h2>
+      <p>
+        Le informazioni inserite nell'app vengono memorizzate localmente
+        sul dispositivo dell'utente. Queste informazioni possono includere:
+      </p>
 
-  <p>
-    Le informazioni inserite nell'app, come oggetti, stanze, posizioni,
-    descrizioni, note e immagini, vengono memorizzate localmente sul
-    dispositivo dell'utente.
-  </p>
+      <ul>
+        <li>nomi e descrizioni degli oggetti;</li>
+        <li>abitazioni, stanze e contenitori;</li>
+        <li>categorie, tag e note;</li>
+        <li>fotografie associate agli oggetti;</li>
+        <li>storico delle posizioni degli oggetti;</li>
+        <li>preferenze e impostazioni dell'app.</li>
+      </ul>
 
-  <p>
-    Lo sviluppatore non può accedere a tali informazioni.
-  </p>
+      <p>
+        Lo sviluppatore non può accedere direttamente a questi contenuti.
+      </p>
+    </section>
 
-  <h2>Fotocamera e immagini</h2>
+    <section>
+      <h2>Fotocamera e libreria fotografica</h2>
 
-  <p>
-    L'app può richiedere l'accesso alla fotocamera o alla galleria fotografica
-    esclusivamente per permettere all'utente di associare immagini agli
-    oggetti registrati.
-  </p>
+      <p>
+        L'app può richiedere l'accesso alla fotocamera o alla libreria
+        fotografica esclusivamente per consentire all'utente di associare
+        un'immagine agli oggetti registrati.
+      </p>
 
-  <p>
-    Le immagini selezionate rimangono memorizzate localmente sul dispositivo
-    e non vengono inviate a server esterni.
-  </p>
+      <p>
+        L'accesso avviene soltanto dopo l'autorizzazione dell'utente.
+        Le immagini selezionate o acquisite vengono conservate localmente
+        e non sono inviate a server gestiti dallo sviluppatore.
+      </p>
+    </section>
 
-  <h2>Backup ed esportazione</h2>
+    <section>
+      <h2>Microfono e riconoscimento vocale</h2>
 
-  <p>
-    L'app può consentire all'utente di creare, esportare o ripristinare
-    copie di backup dei propri dati.
-  </p>
+      <p>
+        L'app può richiedere l'accesso al microfono e al riconoscimento
+        vocale per trasformare la voce dell'utente in testo e facilitare
+        l'inserimento degli oggetti e delle relative posizioni.
+      </p>
 
-  <p>
-    La creazione e la condivisione dei backup avvengono esclusivamente
-    su iniziativa dell'utente.
-  </p>
+      <p>
+        La funzione viene attivata soltanto su iniziativa dell'utente.
+        Il riconoscimento vocale è gestito dai servizi messi a disposizione
+        dal sistema operativo del dispositivo. A seconda del dispositivo,
+        delle impostazioni e del servizio utilizzato, l'audio potrebbe
+        essere elaborato da Apple o Google secondo le rispettive
+        informative sulla privacy.
+      </p>
 
-  <h2>Servizi di terze parti</h2>
+      <p>
+        Lo sviluppatore non riceve né conserva registrazioni audio sui
+        propri server.
+      </p>
+    </section>
 
-  <p>
-    L'app potrebbe utilizzare servizi forniti da Google Play per la
-    distribuzione, gli acquisti in-app e la gestione tecnica dell'applicazione.
-    Tali servizi possono trattare alcune informazioni tecniche secondo le
-    rispettive informative sulla privacy.
-  </p>
+    <section>
+      <h2>Backup ed esportazione</h2>
 
-  <h2>Sicurezza dei dati</h2>
+      <p>
+        L'app consente all'utente di creare, esportare e ripristinare
+        copie di backup contenenti i dati e le immagini salvati nell'app.
+      </p>
 
-  <p>
-    I dati dell'app sono conservati localmente sul dispositivo. L'utente è
-    responsabile della sicurezza del proprio dispositivo e delle eventuali
-    copie di backup create.
-  </p>
+      <p>
+        La creazione e la condivisione dei backup avvengono esclusivamente
+        su iniziativa dell'utente. L'utente sceglie personalmente dove
+        salvare o con chi condividere il file.
+      </p>
 
-  <h2>Privacy dei minori</h2>
+      <p>
+        Lo sviluppatore non riceve automaticamente copie dei backup.
+        L'utente è responsabile della loro conservazione e protezione.
+      </p>
+    </section>
 
-  <p>
-    L'applicazione non è progettata per raccogliere consapevolmente dati
-    personali di minori.
-  </p>
+    <section>
+      <h2>Acquisti in-app</h2>
 
-  <h2>Modifiche alla presente informativa</h2>
+      <p>
+        L'app può offrire un acquisto in-app non consumabile per sbloccare
+        le funzionalità Premium.
+      </p>
 
-  <p>
-    La presente Privacy Policy potrebbe essere aggiornata in caso di modifiche
-    alle funzionalità dell'app o ai requisiti normativi. La data dell'ultimo
-    aggiornamento sarà indicata all'inizio della pagina.
-  </p>
+      <p>
+        Pagamenti, ricevute e ripristino degli acquisti sono gestiti da
+        Apple App Store o Google Play, a seconda della piattaforma.
+        Lo sviluppatore non riceve i dati completi della carta di pagamento.
+      </p>
+    </section>
 
-  <h2>Contatti</h2>
+    <section>
+      <h2>Servizi di terze parti</h2>
 
-  <p>
-    Per domande relative alla privacy è possibile contattare lo sviluppatore:
-  </p>
+      <p>
+        Alcune funzionalità possono utilizzare servizi forniti dal sistema
+        operativo e dagli store digitali, tra cui:
+      </p>
 
-  <p>
-    <a href="mailto:tua-email@example.com">davide.chignoli@outlook.it</a>
-  </p>
+      <ul>
+        <li>Apple App Store e servizi Apple;</li>
+        <li>Google Play e servizi Google;</li>
+        <li>servizi di riconoscimento vocale del dispositivo;</li>
+        <li>funzioni di condivisione e selezione dei documenti.</li>
+      </ul>
 
-  <footer>
-    Privacy Policy di Dove l'ho messo
-  </footer>
+      <p>
+        Tali servizi possono trattare dati tecnici e diagnostici secondo
+        le proprie condizioni e informative sulla privacy.
+      </p>
+    </section>
 
+    <section>
+      <h2>Conservazione e cancellazione dei dati</h2>
+
+      <p>
+        I dati rimangono sul dispositivo fino a quando l'utente li elimina,
+        disinstalla l'app oppure ripristina o cancella il dispositivo.
+      </p>
+
+      <p>
+        L'eliminazione di un oggetto o di una posizione può essere effettuata
+        direttamente dall'app. La disinstallazione può comportare la perdita
+        dei dati locali non precedentemente esportati tramite backup.
+      </p>
+    </section>
+
+    <section>
+      <h2>Sicurezza</h2>
+
+      <p>
+        I dati dell'app sono conservati localmente. L'utente è responsabile
+        della sicurezza del proprio dispositivo, del codice di sblocco e
+        delle eventuali copie di backup esportate.
+      </p>
+
+      <p>
+        Si consiglia di conservare i backup in una posizione sicura e di
+        non condividerli con persone non autorizzate.
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy dei minori</h2>
+
+      <p>
+        L'app non è progettata per raccogliere consapevolmente dati personali
+        di minori e non richiede la creazione di un profilo personale.
+      </p>
+    </section>
+
+    <section>
+      <h2>Modifiche alla presente informativa</h2>
+
+      <p>
+        Questa Privacy Policy può essere aggiornata per riflettere modifiche
+        alle funzionalità dell'app, ai servizi utilizzati o ai requisiti
+        normativi.
+      </p>
+
+      <p>
+        La data dell'ultimo aggiornamento viene indicata all'inizio della
+        pagina.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contatti</h2>
+
+      <p>
+        Per domande relative alla privacy o alla gestione dei dati puoi
+        contattare lo sviluppatore:
+      </p>
+
+      <a
+        class="email-button"
+        href="mailto:davide.chignoli@outlook.it?subject=Privacy%20Dove%20l%27ho%20messo%3F"
+      >
+        davide.chignoli@outlook.it
+      </a>
+    </section>
+
+    <footer>
+      <p>© 2026 Davide Chignoli. Tutti i diritti riservati.</p>
+      <p>
+        <a href="./support.html">Vai alla pagina di assistenza</a>
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
