@@ -1,10 +1,211 @@
-Assistenza – Dove l'ho messo?
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Per richieste di assistenza, problemi tecnici, acquisti Premium o ripristino degli acquisti, contatta:
+  <title>Assistenza – Dove l'ho messo?</title>
+  <meta
+    name="description"
+    content="Pagina di assistenza ufficiale dell'app Dove l'ho messo?"
+  >
 
-Email: davide.chignoli@outlook.it
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f8f7ff;
+      --surface: #ffffff;
+      --primary: #6842e3;
+      --primary-dark: #32168c;
+      --primary-soft: #eee9ff;
+      --text: #201747;
+      --muted: #665f7a;
+      --border: #ddd7ef;
+    }
 
-Ripristino acquisto
-Apri l’app, entra nella schermata Premium e seleziona “Ripristina acquisto”.
+    * {
+      box-sizing: border-box;
+    }
 
-Nella richiesta indica il modello del dispositivo, la versione di iOS e una breve descrizione del problema.
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Helvetica,
+        Arial,
+        sans-serif;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(720px, calc(100% - 32px));
+      margin: 48px auto;
+    }
+
+    header {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+
+    .icon {
+      display: grid;
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 16px;
+      border-radius: 22px;
+      background: var(--primary);
+      color: #ffffff;
+      font-size: 34px;
+      place-items: center;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: var(--primary-dark);
+      font-size: clamp(28px, 6vw, 38px);
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    section {
+      margin-bottom: 18px;
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--surface);
+      box-shadow: 0 8px 28px rgb(40 25 90 / 7%);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      color: var(--primary-dark);
+      font-size: 21px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .email-button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: var(--primary);
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      overflow-wrap: anywhere;
+    }
+
+    .email-button:hover,
+    .email-button:focus {
+      background: var(--primary-dark);
+    }
+
+    ol {
+      margin: 8px 0 0;
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      padding: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--primary-dark);
+    }
+
+    @media (max-width: 480px) {
+      main {
+        margin: 24px auto;
+      }
+
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="icon" aria-hidden="true">⌂</div>
+      <h1>Assistenza</h1>
+      <p class="subtitle">Dove l'ho messo?</p>
+    </header>
+
+    <section>
+      <h2>Contattaci</h2>
+
+      <p>
+        Per richieste di assistenza, problemi tecnici, acquisti Premium
+        o ripristino degli acquisti, puoi contattarci tramite email.
+      </p>
+
+      <a
+        class="email-button"
+        href="mailto:davide.chignoli@outlook.it?subject=Assistenza%20Dove%20l%27ho%20messo%3F"
+      >
+        davide.chignoli@outlook.it
+      </a>
+    </section>
+
+    <section>
+      <h2>Ripristino dell'acquisto</h2>
+
+      <ol>
+        <li>Apri l'app <strong>Dove l'ho messo?</strong>.</li>
+        <li>Entra nella schermata <strong>Premium</strong>.</li>
+        <li>Seleziona <strong>Ripristina acquisto</strong>.</li>
+      </ol>
+
+      <p>
+        Assicurati di utilizzare lo stesso account Apple con cui hai
+        effettuato l'acquisto originale.
+      </p>
+    </section>
+
+    <section>
+      <h2>Informazioni utili</h2>
+
+      <p>Per aiutarci a risolvere il problema, indica nella richiesta:</p>
+
+      <ul>
+        <li>il modello del dispositivo;</li>
+        <li>la versione di iOS;</li>
+        <li>la versione dell'app;</li>
+        <li>una breve descrizione del problema;</li>
+        <li>eventuali passaggi necessari per riprodurlo.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>© 2026 Davide Chignoli. Tutti i diritti riservati.</p>
+      <p>
+        <a href="./">Consulta la Privacy Policy</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
