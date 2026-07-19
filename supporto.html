@@ -52,17 +52,17 @@
       text-align: center;
     }
 
-    .icon {
-      display: grid;
-      width: 72px;
-      height: 72px;
-      margin: 0 auto 16px;
-      border-radius: 22px;
-      background: var(--primary);
-      color: #ffffff;
-      font-size: 34px;
-      place-items: center;
-    }
+.app-icon {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 16px;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgb(40 25 90 / 15%);
+  object-fit: cover;
+}
 
     h1 {
       margin: 0 0 8px;
@@ -150,7 +150,13 @@
 <body>
   <main>
     <header>
-      <div class="icon" aria-hidden="true">⌂</div>
+      <img
+  class="app-icon"
+  src="./icon.png"
+  alt="Icona dell'app Dove l'ho messo?"
+  width="88"
+  height="88"
+>
       <h1>Assistenza</h1>
       <p class="subtitle">Dove l'ho messo?</p>
     </header>
